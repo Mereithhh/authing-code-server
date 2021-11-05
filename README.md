@@ -25,10 +25,10 @@ cd authing-code-server/scripts
 ./code-server-ubuntu-20.04-step1.sh
 
 # 重启一下，脚本中间会提示你选一律选 Y
-./code-server-ubuntu-20.04-step2.sh
+./code-server-ubuntu-20.04-step2.sh <your-code-server-password>
 
 # 脚本中出现描述界面按 q 推出并继续执行
-./authing-init.sh
+./authing-init.sh <your-gitlab-username> <your-gitlab-password>
 
 # 然后根据实际情况修改 /etc/nginx/conf.d 里面的代理配置
 ```
