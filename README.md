@@ -11,7 +11,13 @@ vim git node nvm yarn code-server zsh oh-my-zsh docker(pg redis)
 
 ## 使用方法
 准备一个纯净的 ubutnu 20.04 机器。然后跟着步骤来
+
+
 ```
+apt update
+
+apt install git -y
+
 git clone https://github.com/Mereithhh/authing-code-server
 
 cd authing-code-server/scripts
