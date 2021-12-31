@@ -28,9 +28,10 @@ cd authing-code-server/scripts
 ./code-server-ubuntu-20.04-step2.sh <your-code-server-password>
 
 # 脚本中出现描述界面按 q 推出并继续执行
-./authing-init.sh <your-gitlab-username> <your-gitlab-password>
+./authing-init.sh <your-gitlab-username> <your-gitlab-password> 
 
 # 然后根据实际情况修改 /etc/nginx/conf.d 里面的代理配置
+# 具体看两个文件 code.conf 和 authing-dev.conf 的注释即可,默认是开启了 https 的，证书需要泛域名的
 ```
 通过 http://<ip>:2333 访问你的 code-server 即可。
 
